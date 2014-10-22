@@ -30,7 +30,17 @@ public class FunFactsActivity extends Activity {
                 String fact = "";
                 //random select facts
                 Random random = new Random();
+                int num = random.nextInt(3);
                 //update with new fact
+                if(num == 0){
+                    fact="Ants stretch when they wake up in the morning";
+                }
+                else if(num == 1){
+                    fact="Ostriches run faster than horses";
+                }
+                else if (num == 2){
+                    fact = "Olympic gold medals are actually made mostly of silver";
+                }
                 factLabel.setText(fact);
             }
         };
