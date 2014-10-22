@@ -22,7 +22,7 @@ public class FactBook {
 
     //methods
     public String getFact(){
-        //random select facts
+        //random select colors
         Random random = new Random();
         int num = random.nextInt(facts.length);
         //update with new fact
