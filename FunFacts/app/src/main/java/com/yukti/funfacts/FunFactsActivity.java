@@ -2,13 +2,17 @@ package com.yukti.funfacts;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class FunFactsActivity extends Activity {
+
+    public static final String TAG = FunFactsActivity.class.getSimpleName();
 
     private FactBook mfactBook = new FactBook();
     private ColorWheel mcolorWheel = new ColorWheel();
@@ -34,6 +38,9 @@ public class FunFactsActivity extends Activity {
             }
         };
         showFactButton.setOnClickListener(listener);
+
+        Toast.makeText(this, "YAY toast",Toast.LENGTH_SHORT).show();
+        Log.d(TAG, "we're logging from on create");
     }
 
 
