@@ -1,0 +1,12 @@
+span{
+	background-color: #0066AA;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-color: #C0C0C0;
+	border:2px solid;
+	border-radius:5px;
+	padding: 3px;
+	position:absolute;
+	top:150px;
+	left:100px;
+}
