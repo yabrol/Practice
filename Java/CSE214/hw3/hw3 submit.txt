@@ -1,0 +1,36 @@
+Last login: Mon Jul 30 2012 21:03:10 -0500 from 129.49.21.27
+
+ 
+     Welcome to the SUNY at Stony Brook Instructional Computing Network
+ 
+===============================================================================
+      For more information on local events and announcements please see
+
+                        https://tlt.stonybrook.edu
+
+*******************************************************************************
+*******************************************************************************
+ Important email addresses (please send to the correct people):
+ 
+  Basic PC/Mac/basic Unix questions     :   helpme@ic.sunysb.edu
+  IC Unix system problems               :   root@ic.sunysb.edu
+  Web  pages, web accounts (no CGI)     :   webmaster@ic.sunysb.edu
+  UG Lab Unix system problems           :   root@ug.cs.sunysb.edu
+  Mathlab Unix system problems          :   help@mathlab.sunysb.edu
+  Dial in, DCM, PPP, problems           :   access@ic.sunysb.edu
+  Dorm Network problems                 :   resnet@noc.sunysb.edu
+  Comments or suggestions for IC Unix   :   comments@ic.sunysb.edu
+*******************************************************************************
+Press Enter to Continue: 
+sparky% cd CSE214
+sparky% cd homework3
+sparky% handin214 homework3_01 submit
+a submit/ 0K
+a submit/Batter.java 5K
+a submit/BattingOrder.java 2K
+a submit/BooleanSource.java 2K
+a submit/IllegalArguement.java 1K
+a submit/Simulator.java 11K
+Wrote 25088 bytes to hand-in file, now updating log file.
+Hand-in successful, 25088 bytes saved.
+sparky% 
